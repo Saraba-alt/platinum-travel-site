@@ -20,7 +20,7 @@
   <body>
     <header>
       <img src="assets/images/icons/platinum_travel.svg" />
-      <a href="#">Хамт аялах</a>
+      <a href="#" class="btn">Хамт аялах</a>
       <nav>
         <ul>
           <li><a href="#our-beginning">Эхлэл</a></li>
@@ -32,10 +32,14 @@
 
     <div class="large-hero">
       <img src="assets/images/hero--large.jpg" />
-      <h1>Таны нандин дурсамж.</h1>
-      <h2>Ганцхан алхам үлдлээ.</h2>
-      <p>Бид таны амьдралыг аз жаргал, адал явдлаар дүүргэх болно.</p>
-      <p><a href="#">Өнөөдөр эхлэе</a></p>
+      <div class="large-hero__text-content">
+        <h1 class="large-hero__title">Таны нандин дурсамж.</h1>
+        <h2 class="large-hero__subtitle">Ганцхан алхам үлдлээ.</h2>
+        <p class="large-hero__description">
+          Бид таны амьдралыг аз жаргал, адал явдлаар дүүргэх болно.
+        </p>
+        <p><a href="#" class="btn btn--orange btn--large">Өнөөдөр эхлэе</a></p>
+      </div>
     </div>
 
     <div id="our-beginning">
@@ -148,7 +152,7 @@
     <footer>
       <p>
         Copyright &copy; 2019 Platinum Travel. All rights reserved.
-        <a href="#">Хамт аялах</a>
+        <a href="#" class="btn btn--orange">Хамт аялах</a>
       </p>
     </footer>
     <!-- "modal" хичээлийг үзтэлээ энэ тайлбар бүхий хэсгийг битгий нээгээрэй
@@ -169,5 +173,6 @@
     <div class="modal__close">X</div>
   </div>
   This is the end of the "modal" reference HTML -->
+    <script src="./bundled.js"></script>
   </body>
 </html>
