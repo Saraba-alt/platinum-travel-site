@@ -21,6 +21,7 @@ module.exports = {
     port: 9000,
     host: "0.0.0.0",
   },
+
   mode: "development",
   module: {
     rules: [
@@ -29,7 +30,10 @@ module.exports = {
         use: [
           "style-loader",
           "css-loader",
-          { loader: "postcss-loader", options: { plugins: postCSSPlugins } },
+          {
+            loader: "postcss-loader",
+            options: { plugins: postCSSPlugins },
+          },
         ],
       },
     ],
